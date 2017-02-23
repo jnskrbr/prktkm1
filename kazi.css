@@ -1,0 +1,82 @@
+body {
+	background-color: #1A1A1A;
+	overflow: hidden;
+}
+
+#chamber {
+	position:absolute;
+	width:300px;
+	height:300px;
+	left:50%;
+	top:45%;
+	transform: translateX(-150px) translateY(-150px);
+	background-color: #000;
+	color: #E4E4E4;
+	z-index: 1;
+	box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.75);
+}
+
+#ding {
+	height: 70px;
+	width: 240px;
+	background-color: red;
+	transform: translateX(30px) translateY(110px);
+}
+
+
+.font {
+	color: #EEE;
+	font-size: 100px;
+	top: 0;
+	transform: translateY(-138px);
+	font-family: 'Baloo', cursive;
+	float: left;
+	overflow: hidden;
+}
+
+#button {
+	position:absolute;
+	width:300px;
+	height:300px;
+	left:94%;
+	top:70%;
+	width: 50px;
+	height: 50px;
+	background-color: #FE4365;
+	border: none;
+	z-index: 100;
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+}
+
+#button2 {
+	position:absolute;
+	width:300px;
+	height:300px;
+	left:94%;
+	top:89%;
+	width: 50px;
+	height: 50px;
+	background-color: #FE4365;
+	border: none;
+	z-index: 100;
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+}
+
+#button:focus {
+	outline: none;
+}
+
+#button2:focus {
+	outline: none;
+}
+
+#button-container {
+	width: 100px;
+	height: auto;
+	position: absolute;
+	right: 0;
+}
+
+.button-control {
+	margin: 10px 5px;
+}
